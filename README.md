@@ -2,7 +2,7 @@
 
 Simple DNS server with Redis as the backend. Redis records are stored according to the FQDN (with trailing dot) as the key, and a JSON payload as the value.
 
-#Json Payload:
+# JSON Payload:
 ```
 {
       "key": "www.google.com.",  
